@@ -14662,6 +14662,8 @@ let
     withX = true;
   };
 
+  scilab-bin = callPackage ../applications/science/math/scilab-bin {};
+
   msieve = callPackage ../applications/science/math/msieve { };
 
   weka = callPackage ../applications/science/math/weka { };
